@@ -347,10 +347,10 @@ class Theme
         }
 
 
-        $themePath = self::themePath() . $themeName . '/';
-
+        $themePath =  $themeName . '/';
 
         $assetPath = config('theme.folders.assets') . '/';
+
         $fullPath = $themePath . $assetPath . $path;
 
         if (!file_exists($fullPath)) {
