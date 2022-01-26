@@ -1,6 +1,6 @@
 {
-    "name": "oasin/laratheme",
-    "description": "Theme system for Laravel Framework",
+    "name": "oasin/laravel-themer",
+    "description": "Laravel theme bundle",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
