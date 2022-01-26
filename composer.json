@@ -1,0 +1,34 @@
+{
+    "name": "oasin/laratheme",
+    "description": "Theme system for Laravel Framework",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "M4dEv",
+            "email": "oasintech@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oasin\\Theme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Oasin\\Theme\\ThemeServiceProvider"
+            ],
+            "aliases": {
+                "Theme": "Oasin\\Theme\\Facades\\ThemeFacade"
+            }
+        }
+    },
+    "require": {
+        "laravel/framework": "^8.12",
+        "ext-zip": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*"
+    }
+}
