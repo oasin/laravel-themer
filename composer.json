@@ -26,7 +26,7 @@
         }
     },
     "require": {
-        "laravel/framework": "~8.12",
+        "laravel/framework": ">=8.12",
         "ext-zip": "*",
         "ext-json": "*",
         "ext-fileinfo": "*"
